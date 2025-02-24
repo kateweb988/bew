@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Opiumnewc';
+    src: url('fonts/Opiumnewc.eot');
+    src: url('fonts/Opiumnewc.eot') format('embedded-opentype'),
+         url('fonts/Opiumnewc.woff2') format('woff2'),
+         url('fonts/Opiumnewc.woff') format('woff'),
+         url('fonts/Opiumnewc.ttf') format('truetype'),
+         url('fonts/Opiumnewc.svg#Opiumnewc') format('svg');
+}

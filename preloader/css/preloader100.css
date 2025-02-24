@@ -1,0 +1,47 @@
+﻿@charset "UTF-8";
+body {
+  display: none;
+}
+
+#jpreOverlay {
+  background-color: #fff;
+}
+
+#jpreLoader{
+  text-align: center;
+  width: 400px;
+  margin: 0 0 0 0;
+  padding-right: 30px;
+}
+
+
+#jprePercentage {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  line-height: 1.2em;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  color: #ff7200;
+  text-align: center;
+  width: 360px;
+  margin: 0 auto;
+}
+
+#jprePercentage::before {
+  content: "Загрузка...";
+  color: #e3cd9e;
+  font-size: 20px;
+}
+
+#jprePercentage::after {
+  content: "Клиника АКСЕМЕД";  
+  display: block;
+  text-transform: none;
+  font-weight: 300;
+  font-size: 19px;
+  line-height: 2.5em;
+  color: #62c8c2;
+  letter-spacing: 0;
+}
+
